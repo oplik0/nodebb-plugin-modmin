@@ -16,6 +16,7 @@
   "deprecated": false,
   "description": "allow non-admin users access to privilege and category controls with category-specific privilege granting that access",
   "homepage": "https://github.com/Wieloswiat/nodebb-plugin-modmin",
+  "repository": "github:Wieloswiat/nodebb-plugin-modmin",
   "keywords": [
     "nodebb",
     "plugin",
@@ -25,5 +26,6 @@
   ],
   "nbbpm": {
     "compatibility": "^1.14.0"
-  }
+  },
+  "license": "MIT"
 }
