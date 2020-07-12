@@ -46,9 +46,9 @@
 
 			<div class="privilege-table-container">
 				<!-- IF cid -->
-				<!-- IMPORT admin/partials/categories/privileges.tpl -->
+				<!-- IMPORT admin/partials/privileges/category.tpl -->
 				<!-- ELSE -->
-				<!-- IMPORT admin/partials/global/privileges.tpl -->
+				<!-- IMPORT admin/partials/privileges/global.tpl -->
 				<!-- ENDIF cid -->
 			</div>
 		</div>
