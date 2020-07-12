@@ -14,7 +14,7 @@
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "allow non-admin users access to privilege and category controls with category-specific privilege granting that access",
+  "description": "allow non-admin users access to privilege and category controls with category-specific privilege granting that access. This is an updated version of original modmin plugin, since that one doesn't appear to be actively maintained (and isn't compatible with NodeBB 1.14)",
   "homepage": "https://github.com/Wieloswiat/nodebb-plugin-modmin",
   "repository": "github:Wieloswiat/nodebb-plugin-modmin",
   "keywords": [
