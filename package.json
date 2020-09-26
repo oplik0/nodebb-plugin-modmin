@@ -1,14 +1,22 @@
 {
-  "name": "nodebb-plugin-modmin",
-  "version": "1.3.3",
+  "name": "nodebb-plugin-ws-modmin",
+  "version": "1.5.0",
   "author": {
     "name": "yariplus",
     "email": "tafike@gmail.com"
   },
-  "homepage": "https://github.com/yariplus/nodebb-plugin-modmin",
+  "contributors": [
+    "yariplus <tafike@gmail.com>",
+    "opliko <opliko.reg@protonmail.com> (https://wieloswiat.pl/)"
+  ],
   "bugs": {
-    "url": "https://github.com/yariplus/nodebb-plugin-modmin/issues"
+    "url": "https://github.com/Wieloswiat/nodebb-plugin-modmin/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "allow non-admin users access to privilege and category controls with category-specific privilege granting that access. This is an updated version of original modmin plugin, since that one doesn't appear to be actively maintained (and isn't compatible with NodeBB 1.14)",
+  "homepage": "https://github.com/Wieloswiat/nodebb-plugin-modmin",
+  "repository": "github:Wieloswiat/nodebb-plugin-modmin",
   "keywords": [
     "nodebb",
     "plugin",
@@ -20,4 +28,5 @@
     "compatibility": "^1.14.0"
   },
   "main": "library.js"
+  "license": "MIT"
 }
